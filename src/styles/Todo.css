@@ -1,0 +1,87 @@
+.todo-list {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.todo-item {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.todo-item:hover {
+    background-color: #e8e8e8;
+    transition: all 0.2s;
+}
+
+.crossed-line {
+    position: absolute;
+    left: 25%;
+    height: 2px;
+    width: 50%;
+    background-color: black;
+}
+
+.button {
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.round-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.button-done {
+    background-color: black;
+}
+
+.button:hover {
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    transition: all 0.2s;
+}
+
+.add-form {
+    display: flex;
+    margin: 0 10px 3rem 10px;
+    justify-content: space-between;
+}
+
+.todo-title {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    flex-grow: 0.8;
+}
+
+.todo-title-input {
+    border: 1px solid black;
+    z-index: 10;
+}
